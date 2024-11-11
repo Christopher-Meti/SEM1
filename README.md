@@ -1,4 +1,4 @@
-# Projekterklärung
+t# Projekterklärung
 
 ## Definition 
 ### Objekt
@@ -6,7 +6,8 @@
 
 ### Bestellung
 [id, faktor]
-[[1,1], [1,1], [1,1], [1,1], [3,1], [3,1]]
+
+bestellung = [[1,1], [1,1], [1,1], [1,1], [3,1], [3,1]]
 
 * Die Liste "liste" beinhaltet alle Objekte die man bestellen kann
 * liste = [[1,"iPhone", 500],[2, "Bier", 5],[3, "MacBook", 2000],[4, "Sofa", 1000],[5, "Zigaretten", 7]]
