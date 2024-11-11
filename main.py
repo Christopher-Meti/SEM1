@@ -8,7 +8,11 @@ def steuern(bestellung):
     pass
 
 def bestellsumme(bestellung):
-    pass
+    sum = 0
+    for [id, factor] in bestellung:
+        sum += liste[id-1][2]*factor
+
+    return sum
 
 rabatt(bestellung)
 steuern(bestellung)
