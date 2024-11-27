@@ -14,7 +14,10 @@ def rabatt(bestellung):
         print(f"Artikel ID {artikel_id}: {artikelpreis_nach_rabatt} €")
 
 def steuern(bestellung):
-    pass
+     for [id, factor] in bestellung:
+        name = liste[id-1][1]
+        anfangsbuchstabe = name[0].upper()
+        if 65 <= ord(anfangsbuchstabe) <= 75:
 
 def bestellsumme(bestellung):
     sum = 0
